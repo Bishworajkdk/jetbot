@@ -1,4 +1,6 @@
 # Jetbot
+Run all the .ipynb file on google colab or jupyter notebook.
+
 Install TensorFlow
 
 Install the system package according to the requirements of TensorFlow:
@@ -24,7 +26,7 @@ Therefore, the first local installation method can be used to complete the insta
 sudo pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42
 tensorflow-gpu == 1.13.1 + nv19.3
 
-Then I installed Pytorch on it.
+Then we installed Pytorch on it.
 
 Since, we will be using resnet and alxenet for the image processing, so its .pth file need to be download.
 
