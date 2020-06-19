@@ -1,5 +1,5 @@
 # Jetbot
-Run all the .ipynb file on google colab or jupyter notebook.
+Note: Run all the .ipynb file on google colab or jupyter notebook.
 
 Install TensorFlow
 
