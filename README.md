@@ -1,51 +1,25 @@
-# Jetbot
-Note: Run all the .ipynb file on google colab or jupyter notebook.
+# Jetbot - Final Year College Project
 
-Install TensorFlow
+**Overview:**
 
-Install the system package according to the requirements of TensorFlow:
+This repository showcases the culmination of my final year college project. The project involved training a Jetbot using a machine learning framework to replicate self-driving capabilities on a pre-designed track that we built. The primary goal was to implement and test the functionality of the Jetbot in a controlled environment.
 
-sudo apt-get install libhdf5-serial-dev hdf5-tools libhdf5-dev zlib1g-dev zip libjpeg8-dev
+**Project Highlights:**
 
-Install and update PIP3
+- **Technology Stack:**
+  - TensorFlow for machine learning.
+  - PyTorch for additional functionalities.
+  - Jupyter Lab for interactive development.
 
-sudo apt-get install python3-pip
-sudo pip3 install -U pip
+- **Methodology:**
+  - Trained the Jetbot using machine learning models.
+  - Implemented the self-driving capabilities on a pre-designed track.
+  - Tested and validated the Jetbot's performance.
 
-Input this command to install Python package:
+**Project Success:**
 
-sudo pip3 install -U numpy grpcio absl-py py-cpuinfo psutil portpicker six mock requests gast h5py astor
-termcolor protobuf keras-applications keras-preprocessing wrapt google-pasta setuptools testresources
+The project went through various stages of development, from setting up the necessary frameworks to designing and building the track for testing. The Jetbot successfully demonstrated self-driving capabilities on the track, showcasing the practical application of machine learning in robotics.
 
-Installation:
+Feel free to explore the project, review the code, and reach out for any questions or collaborations.
 
-Because the firewall between the domestic network and the external network is isolated, the access
-speed of the external network is relatively slow. 
-Therefore, the first local installation method can be used to complete the installation more stably and quickly.
-
-sudo pip3 install --extra-index-url https://developer.download.nvidia.com/compute/redist/jp/v42
-tensorflow-gpu == 1.13.1 + nv19.3
-
-Then we installed Pytorch on it.
-
-Since, we will be using resnet and alxenet for the image processing, so its .pth file need to be download.
-
-Install Jupyter Lab
-
-Use the following command to install the Jupyter Lab in order:
-1) Installation dependencies:
-sudo apt install nodejs npm
-
-2) Install jupyterlab:
-
-sudo pip3 install jupyter jupyterlab
-sudo jupyter labextension install @jupyter-widgets/jupyterlab-manager
-sudo jupyter labextension install @jupyterlab/statusbar
-
-Generate the appropriate configuration file:
-
-jupyter lab --generate-config
-
-Set the password to enter the notebook:
-
-jupyter notebook password
+*Note: This project was part of my final year studies and serves as a testament to the successful application of machine learning in robotics.*
