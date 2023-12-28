@@ -19,6 +19,7 @@ This repository showcases the culmination of my final year college project. The 
 **Project Success:**
 
 The project went through various stages of development, from setting up the necessary frameworks to designing and building the track for testing. The Jetbot successfully demonstrated self-driving capabilities on the track, showcasing the practical application of machine learning in robotics.
+[Video demo](https://drive.google.com/file/d/1mEu8Y0vYK2MyMsF100pkgHYQjEj2C2ws/view?usp=sharing)
 
 Feel free to explore the project, review the code, and reach out for any questions or collaborations.
 
